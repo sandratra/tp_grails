@@ -272,14 +272,11 @@
                         <li>
                             <a href="/users">Joueurs</a>
                         </li>
-                        <li>
-                            <a href="morris.html">Morris.js Charts</a>
-                        </li>
                     </ul>
                     <!-- /.nav-second-level -->
                 </li>
                 <li>
-                    <a href="tables.html"><i class="fa fa-table fa-fw"></i> Résultats</a>
+                    <a href="/resultat"><i class="fa fa-table fa-fw"></i> Résultats</a>
                 </li>
                 <li>
                     <a href="tables.html"><i class="fa fa-table fa-fw"></i> Messages<span class="fa arrow"></span></a>
@@ -288,9 +285,6 @@
                             <a href="flot.html">Boite de reception</a>
                         </li>
                     </ul>
-                </li>
-                <li>
-                    <a href="tables.html"><i class="fa fa-table fa-fw"></i> Jouer<span class="fa arrow"></span></a>
                 </li>
                 <!--
                 <li>
@@ -372,6 +366,8 @@
     </div>
     <!-- /.navbar-static-side -->
 </nav>
+
+<asset:javascript src="jquery.min.js"/>
 
 <div id="page-wrapper" style="min-height: 708px;">
     <g:layoutBody/>

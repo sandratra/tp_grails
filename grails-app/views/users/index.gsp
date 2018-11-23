@@ -23,8 +23,8 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Nom d'utilisateur</th>
-                                    <th>Action</th>
+                                    <th>Username</th>
+                                    <th>Jouer contre</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -32,7 +32,8 @@
                                     <tr>
                                         <td>${counter+1}</td>
                                         <td><a href="users/show/${user.id}">${user.username}</a></td>
-                                        <td><a href="users/startchat/${user.id}">Discuter</a></td>
+                                        <th><a href="jeux?user1=<sec:loggedInUserInfo field='id'/>&user2=${user.id}">Jouer</a></th>
+                                        <td><a href="message/join?nickname=${user.username}">Discuter</a></td>
                                     </tr>
                                 </g:each>
                             </tbody>

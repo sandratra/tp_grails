@@ -39,7 +39,7 @@
                     <h3 class="panel-title">Veuillez-vous connecter</h3>
                 </div>
                 <g:if test='${flash.message}'>
-                    <div class="login_message" style="color: red">${flash.message}</div>
+                    <div class="login_message" style="color: #19ff30">${flash.message}</div>
                 </g:if>
                 <div class="panel-body">
                     <form action="/login/authenticate" method="POST">

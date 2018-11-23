@@ -1,13 +1,13 @@
 package m2.auth
 
 class Message {
-    Users expediteur
-    Users destinataire
+    String expediteur
+    String destinataire
     String messages
-    boolean  isRead
-    Date daty
+    boolean  isRead = true
+    Date daty = new Date()
 
     static constraints = {
-        message nullable: false, blank: false
+        messages nullable: false, blank: false
     }
 }
